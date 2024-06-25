@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/gravity
+    working_directory: ~/sunwell
     docker:
       - image: cimg/android:2022.12.1-ndk
     environment:
